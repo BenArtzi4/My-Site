@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
+  color: #40514e;
 }
 
 h1 {
@@ -10,14 +11,14 @@ h1 {
   font-family: "Sacramento";
   margin: 50px auto 0 auto;
   color: #66bfbf;
-  line-height: 2rem;
 }
 
 h2 {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 1.8rem;
   color: #66bfbf;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -28,22 +29,95 @@ a {
   color: #11999e;
 }
 
+p {
+  line-height: 2.1;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
 /***********************************CLASS SELECTORS***********************************/
 .top-cloud {
   position: absolute;
-  right: 300px;
-  top: 50px;
+  right: 15%;
+  top: 10%;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
-  bottom: 300px;
+  left: 22%;
+  bottom: 36%;
 }
 
-.my-paragraph {
+.intro {
+  width: 40%;
+  padding: 0 15% 0 15%;
+  padding-top: 50px;
   text-align: left;
-  margin: 0 auto 0 auto;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.profile {
+  width: 80%;
+  margin: 50px auto 100px auto;
+}
+
+.left-float-img {
+  float: left;
+  margin: auto 5% auto auto;
+}
+
+.right-float-img {
+  float: right;
+  margin: auto auto auto 5%;
+}
+
+.circle-img {
+  width: 18%;
+  height: auto;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ab);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ab);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ab);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ab);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ab);
+  text-decoration: none;
 }
 
 /***********************************ID SELECTORS***********************************/
@@ -52,4 +126,21 @@ a {
   padding-top: 100px;
   background-color: #e4f9f5;
   position: relative;
+}
+
+#middle-container {
+  padding-top: 100px;
+  position: relative;
+}
+
+#bottom-container {
+  background-color: #66bfbf;
+}
+
+#hello-h {
+  text-align: center;
+}
+
+#contact-btn-div {
+  margin: 5px 0 30px 0;
 }
