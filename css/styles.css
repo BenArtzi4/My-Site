@@ -15,15 +15,24 @@ h1 {
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   color: #66bfbf;
   font-weight: normal;
   padding-bottom: 10px;
 }
 
 h3 {
+  font-size: 1.6rem;
   font-family: "Montserrat";
   color: #11999e;
+  margin: 15px 0;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  color: #66bfbf;
+  margin: 0 0;
 }
 a {
   color: #11999e;
@@ -44,7 +53,7 @@ hr {
   border: dotted #eaf6f6 6px;
   border-bottom: none;
   width: 4%;
-  margin: 100px auto;
+  margin: 80px auto;
 }
 
 /***********************************CLASS SELECTORS***********************************/
@@ -62,7 +71,7 @@ hr {
 
 .intro {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 80px auto 100px auto;
   text-align: left;
 }
 
@@ -70,6 +79,15 @@ hr {
   width: 60%;
   margin: 100px auto 100px auto;
   text-align: left;
+}
+
+.skill-img {
+  position: relative;
+  bottom: 25px;
+}
+
+.role {
+  margin: 10px 0;
 }
 
 .profile {
@@ -84,6 +102,8 @@ hr {
 
 .right-float-img {
   float: right;
+  position: relative;
+  right: 20px;
 }
 
 .circle-img {
@@ -152,6 +172,16 @@ hr {
   padding: 20px 0;
 }
 
+.years {
+  font-size: 0.75rem;
+  font-style: italic;
+  margin: 0 0;
+}
+
+.jod-descrip {
+  margin: 10px 0;
+}
+
 /***********************************ID SELECTORS***********************************/
 
 #top-container {
@@ -172,6 +202,7 @@ hr {
 
 #hello-h {
   text-align: center;
+  padding: 30px 0 0 0;
 }
 
 #contact-btn-div {
