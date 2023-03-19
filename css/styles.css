@@ -30,6 +30,11 @@ h3 {
   bottom: 300px;
 }
 
+.my-paragraph {
+  text-align: left;
+  margin: 0 auto 0 auto;
+}
+
 /***********************************ID SELECTORS***********************************/
 
 #top-container {
@@ -39,13 +44,7 @@ h3 {
 }
 
 #middle-container {
-  width: 200px;
-  height: 200px;
-  background-color: blue;
 }
 
 #bottom-container {
-  width: 200px;
-  height: 200px;
-  background-color: red;
 }
