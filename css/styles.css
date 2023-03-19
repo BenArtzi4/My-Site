@@ -91,7 +91,6 @@ hr {
   height: auto;
   border-radius: 100%;
   object-fit: cover;
-  padding: 0 20px 30px 20px;
 }
 
 .contact-message {
@@ -147,6 +146,12 @@ hr {
   margin-top: 6.6%;
 }
 
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
 /***********************************ID SELECTORS***********************************/
 
 #top-container {
@@ -156,7 +161,7 @@ hr {
 }
 
 #middle-container {
-  padding-top: 100px;
+  padding-top: 50px;
   position: relative;
 }
 
