@@ -27,6 +27,13 @@ h3 {
 }
 a {
   color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: eaf6f6;
 }
 
 p {
@@ -120,6 +127,14 @@ hr {
   text-decoration: none;
 }
 
+.logo {
+  width: 20px;
+  height: auto;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
 /***********************************ID SELECTORS***********************************/
 
 #top-container {
@@ -135,6 +150,7 @@ hr {
 
 #bottom-container {
   background-color: #66bfbf;
+  padding: 40px 0 20px;
 }
 
 #hello-h {
@@ -143,4 +159,17 @@ hr {
 
 #contact-btn-div {
   margin: 5px 0 30px 0;
+}
+
+#github-div {
+  display: inline-block;
+}
+
+#linkedin-div {
+  display: inline-block;
+  margin: 0;
+}
+
+#github-logo {
+  margin-right: 5px;
 }
