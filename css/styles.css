@@ -9,15 +9,23 @@ h1 {
   font-size: 5.7rem;
   font-family: "Sacramento";
   margin: 50px auto 0 auto;
+  color: #66bfbf;
+  line-height: 2rem;
 }
 
 h2 {
   font-family: "Montserrat";
   font-size: 1.8rem;
+  color: #66bfbf;
+  font-weight: normal;
 }
 
 h3 {
   font-family: "Montserrat";
+  color: #11999e;
+}
+a {
+  color: #11999e;
 }
 
 /***********************************CLASS SELECTORS***********************************/
@@ -44,10 +52,4 @@ h3 {
   padding-top: 100px;
   background-color: #e4f9f5;
   position: relative;
-}
-
-#middle-container {
-}
-
-#bottom-container {
 }
