@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+/***********************************CLASS SELECTORS***********************************/
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/***********************************ID SELECTORS***********************************/
+
+#top-container {
+  padding-top: 100px;
+  background-color: #e4f9f5;
+  position: relative;
+}
+
+#middle-container {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+#bottom-container {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
