@@ -83,10 +83,11 @@ hr {
 
 .skill-img {
   position: relative;
-  bottom: 25px;
+  top: 0.5rem;
 }
 
 .role {
+  width: 75%;
   margin: 10px 0;
 }
 
@@ -97,7 +98,7 @@ hr {
 
 .left-float-img {
   float: left;
-  margin-right: 50px;
+  margin-right: 4%;
 }
 
 .right-float-img {
