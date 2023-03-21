@@ -278,6 +278,10 @@ li:nth-child(6):before {
   box-sizing: border-box;
 }
 
+.footer-link {
+  color: #5072a7;
+}
+
 /***********************************ID SELECTORS***********************************/
 
 #top-container {
