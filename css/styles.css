@@ -122,6 +122,7 @@ td {
   height: auto;
   border-radius: 100%;
   object-fit: cover;
+  margin-top: 1%;
 }
 
 .contact-message {
