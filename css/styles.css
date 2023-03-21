@@ -175,7 +175,7 @@ td {
 }
 
 .intro-img {
-  margin-top: 6.6%;
+  margin-top: 4%;
 }
 
 .copyright {
@@ -324,4 +324,12 @@ li:nth-child(6):before {
 
 #concept-table {
   margin-left: 40%;
+}
+
+#friends-img {
+  left: 0.5%;
+}
+
+#coding-img {
+  right: 4%;
 }
