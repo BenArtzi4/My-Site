@@ -176,6 +176,8 @@ td {
 
 .intro-img {
   margin-top: 4%;
+  position: relative;
+  top: 3rem;
 }
 
 .copyright {
@@ -331,7 +333,7 @@ li:nth-child(6):before {
 }
 
 #coding-img {
-  right: 4%;
+  right: 3%;
 }
 
 #manor-logo {
