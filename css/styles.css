@@ -54,8 +54,20 @@ hr {
   border-bottom: none;
   width: 4%;
   margin: 80px auto;
+  text-align: left;
 }
 
+section {
+  max-width: 400px;
+  margin-left: 200px;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+td {
+  font-family: "Montserrat";
+}
 /***********************************CLASS SELECTORS***********************************/
 .top-cloud {
   position: absolute;
@@ -83,7 +95,6 @@ hr {
 
 .skill-img {
   position: relative;
-  top: 0.5rem;
 }
 
 .role {
@@ -104,7 +115,7 @@ hr {
 .right-float-img {
   float: right;
   position: relative;
-  right: 20px;
+  right: 12%;
 }
 
 .circle-img {
@@ -183,6 +194,88 @@ hr {
   margin: 10px 0;
 }
 
+.courses-header {
+  font-size: 1.1rem;
+  padding-bottom: 4%;
+}
+
+.qualities {
+  position: relative;
+  list-style-position: inside;
+}
+
+ul {
+  list-style-type: none; /* remove the default bullet */
+}
+
+li:before {
+  content: "✨"; /* symbol:  https://symbl.cc/en/https://symbl.cc/en/*/
+  font-size: 1.5em; /* adjust the size of the icon */
+  margin-right: 0.5em; /* add some spacing between the icon and the text */
+  vertical-align: middle; /* align the icon vertically with the text */
+}
+
+.qualities-list {
+  text-align: left; /* align all list items to the left */
+  display: inline-block; /* center the list on the page */
+}
+
+li:nth-child(1):before {
+  content: "📚"; /* star icon for third list item */
+}
+li:nth-child(2):before {
+  content: "🔍"; /* star icon for third list item */
+}
+li:nth-child(3):before {
+  content: "✌"; /* star icon for third list item */
+}
+
+li:nth-child(4):before {
+  content: "✍"; /* star icon for third list item */
+}
+
+li:nth-child(5):before {
+  content: "📤"; /* star icon for third list item */
+}
+
+li:nth-child(6):before {
+  content: "🔤"; /* star icon for third list item */
+}
+
+.check-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.check-list li {
+  position: relative;
+  list-style-type: none;
+  padding-left: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.check-list li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 5px;
+  height: 11px;
+  border-width: 0 2px 2px 0;
+  border-style: solid;
+  border-color: #00a8a8;
+  transform-origin: bottom left;
+  transform: rotate(45deg);
+}
+
+/* Boilerplate stuff */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 /***********************************ID SELECTORS***********************************/
 
 #top-container {
@@ -221,4 +314,14 @@ hr {
 
 #github-logo {
   margin-right: 5px;
+}
+
+#manor-logo {
+  width: 12rem;
+  height: auto;
+  padding-top: 3%;
+}
+
+#concept-table {
+  margin-left: 40%;
 }
